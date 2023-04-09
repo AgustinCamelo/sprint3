@@ -1,0 +1,37 @@
+
+.taskLight,
+.taskDark{
+    list-style: none;
+    height: 3rem;
+    font-size: 15px;
+    background-color: white;
+    color: hsl(235, 24%, 19%);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+.completed{
+    text-decoration:line-through;  
+}
+
+.taskDark{
+    color: hsl(234, 39%, 85%);
+    background-color: hsl(235, 24%, 19%);
+}
+.checkbox-round{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:checked {
+    background:linear-gradient(hsl(192, 100%, 67%),hsl(280, 87%, 65%));
+}

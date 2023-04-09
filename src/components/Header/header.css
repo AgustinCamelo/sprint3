@@ -1,0 +1,42 @@
+.mobile-light{ 
+    height: 230px;
+    background-image: url('../../assets/images/bg-mobile-light.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mobile-dark{
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/bg-mobile-dark.jpg');
+}
+.title{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 2.4rem;
+}
+.todo{
+    font-size: 26px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    color: white;
+}
+.icon{
+    background-color: transparent;
+    border: none;
+}
+@media (min-width: 1440px) {
+
+.mobile-light{ 
+    height: 260px;
+    background-image: url('../../assets/images/bg-desktop-light.jpg');
+    }
+}
+.mobile-dark{
+    height: 260px;
+    background-image: url('../../assets/images/bg-desktop-dark.jpg');
+}
